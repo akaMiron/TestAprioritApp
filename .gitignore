@@ -1,1 +1,9 @@
 node_modules/
+/TestApriorit.API/bin
+/TestApriorit.API/obj
+/TestApriorit.Core/obj
+/TestApriorit.Core/bin
+/TestApriorit.Data/obj
+/TestApriorit.Data/bin
+/TestApriorit.Services/obj
+/TestApriorit.Services/bin

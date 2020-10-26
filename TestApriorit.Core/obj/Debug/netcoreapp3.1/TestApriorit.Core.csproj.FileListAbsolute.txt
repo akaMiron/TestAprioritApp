@@ -1,9 +1,0 @@
-C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Core\bin\Debug\netcoreapp3.1\TestApriorit.Core.deps.json
-C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Core\bin\Debug\netcoreapp3.1\TestApriorit.Core.dll
-C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Core\bin\Debug\netcoreapp3.1\TestApriorit.Core.pdb
-C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Core\obj\Debug\netcoreapp3.1\TestApriorit.Core.csprojAssemblyReference.cache
-C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Core\obj\Debug\netcoreapp3.1\TestApriorit.Core.AssemblyInfoInputs.cache
-C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Core\obj\Debug\netcoreapp3.1\TestApriorit.Core.AssemblyInfo.cs
-C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Core\obj\Debug\netcoreapp3.1\TestApriorit.Core.csproj.CoreCompileInputs.cache
-C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Core\obj\Debug\netcoreapp3.1\TestApriorit.Core.dll
-C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Core\obj\Debug\netcoreapp3.1\TestApriorit.Core.pdb
