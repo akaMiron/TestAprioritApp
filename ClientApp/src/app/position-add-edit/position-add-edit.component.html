@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>{{ actionType }} position</h1>
+
+<div mat-dialog-content>
+  <form [formGroup]="form" (ngSubmit)="save()" #formDir="ngForm" novalidate>
+
+      <mat-form-field class="full-width">
+        <mat-label>Title</mat-label>
+        <input matInput formControlName="title">
+        <mat-error *ngIf="title.invalid && formDir.submitted">
+          Title is required.
+        </mat-error>
+      </mat-form-field>
+
+    </form>
+</div>
+
+<div mat-dialog-actions align="end">
+  <button mat-button class="float-right" (click)="onNoClick()">Cancel</button>
+  <button mat-button class="float-right" (click)="save()" color="primary" cdkFocusInitial>Save</button>
+</div>

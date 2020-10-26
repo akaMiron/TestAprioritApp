@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TestApriorit.Services/1.0.0": {
+        "dependencies": {
+          "TestApriorit.Core": "1.0.0"
+        },
+        "runtime": {
+          "TestApriorit.Services.dll": {}
+        }
+      },
+      "TestApriorit.Core/1.0.0": {
+        "runtime": {
+          "TestApriorit.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestApriorit.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestApriorit.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

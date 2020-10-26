@@ -1,0 +1,12 @@
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\bin\Debug\netcoreapp3.1\TestApriorit.Services.deps.json
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\bin\Debug\netcoreapp3.1\TestApriorit.Services.dll
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\bin\Debug\netcoreapp3.1\TestApriorit.Services.pdb
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\bin\Debug\netcoreapp3.1\TestApriorit.Core.dll
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\bin\Debug\netcoreapp3.1\TestApriorit.Core.pdb
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\obj\Debug\netcoreapp3.1\TestApriorit.Services.csprojAssemblyReference.cache
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\obj\Debug\netcoreapp3.1\TestApriorit.Services.AssemblyInfoInputs.cache
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\obj\Debug\netcoreapp3.1\TestApriorit.Services.AssemblyInfo.cs
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\obj\Debug\netcoreapp3.1\TestApriorit.Services.csproj.CoreCompileInputs.cache
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\obj\Debug\netcoreapp3.1\TestApriorit.Services.csproj.CopyComplete
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\obj\Debug\netcoreapp3.1\TestApriorit.Services.dll
+C:\Users\Miron\source\repos\TestAprioritSln\TestApriorit.Services\obj\Debug\netcoreapp3.1\TestApriorit.Services.pdb

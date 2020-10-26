@@ -1,0 +1,54 @@
+ <h1>Test Apriorit App</h1> 
+
+<p>
+  <button class="mb-3" mat-raised-button (click)="openEmployeeModal()">New employee</button>
+  <button class="mb-3 ml-1" mat-raised-button (click)="openPositionModal()">New position</button>
+</p> 
+
+<div class="employeePosition">
+
+  <div class="spinner-container" *ngIf="dataSource.loading$ | async">
+      <mat-spinner></mat-spinner>
+  </div>
+
+  <mat-table class="employeePosition-table mat-elevation-z8" [dataSource]="dataSource" 
+    matSort matSortActive="number" matSortDirection="asc" matSortDisableClear>
+    
+    <ng-container matColumnDef="number">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>#</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{ element.employeePosition.employeeId }}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="position">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>Position</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{ element.employeePosition.position.title }}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="employee">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>Employee</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{ element.employee.firstName }} {{ element.employee.lastName }}</mat-cell>
+    </ng-container>
+    
+    <ng-container matColumnDef="salary">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>Salary</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{ element.employeePosition.salary }}</mat-cell>
+    </ng-container>
+    
+    <ng-container matColumnDef="hired">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>Hired</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{ element.employeePosition.hired }}</mat-cell>
+    </ng-container>
+    
+    <ng-container matColumnDef="fired">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>Fired</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{ element.employeePosition.fired }}</mat-cell>
+    </ng-container>
+    
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+
+  </mat-table>
+
+  <mat-paginator [length]="dataSource.count" [pageSize]="3" [pageSizeOptions]="[3, 5, 10]"></mat-paginator>
+
+</div>
